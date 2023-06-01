@@ -1,0 +1,568 @@
+body,button,input{
+    font-family: 'Cairo', sans-serif;
+    
+}
+
+section{
+width: 100%;
+height: 100vh;
+background: url(blue_bg.png);
+background-size: cover;
+background-position:center ;   
+background-repeat: no-repeat;
+position: relative;
+}
+*{ 
+    margin: 0px;
+    padding: 0px;
+    background-repeat: no-repeat;
+
+  
+}
+
+nav { 
+    box-sizing: border-box;
+    position:absolute;
+    padding: 60px 70px;
+    width: 100%;
+    height: 0px;
+    display: flex;
+    justify-content: space-between;
+    z-index: 6;
+  
+}
+
+.nav-left {
+    position: absolute;
+    display: flex;
+
+}
+
+
+.nav-left img {
+    width: 160px;
+}
+
+nav a {
+    
+       text-decoration: none !important;
+       font-size: 19px;
+       height: 0px;
+       padding: 15px 20px;
+       display: flex;
+       align-items: center;
+       color: rgb(143, 142, 142);
+       margin-top: 30px;
+}
+
+.buttonn {
+
+    margin-top: 20px;
+    margin-left: 1500px;
+    background-color: white;
+    border-radius: 20px;
+    padding: 0 10px 5px 10px;
+
+}
+
+.line1 {
+    transition: all 0.5s;
+    position: relative;
+}
+
+.line1::after {
+    content:'' ;
+    opacity: 0;
+    transition: all 0.5s;
+    height: 2px;
+    width: 50px;
+    background-color: red;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    left: 18px;
+
+
+}
+.line1:hover::after {
+    opacity: 1;
+}
+
+
+
+.line2 {
+    transition: all 0.5s;
+    position: relative;
+}
+
+.line2::after {
+    content:'' ;
+    opacity: 0;
+    transition: all 0.5s;
+    height: 2px;
+    width: 70px;
+    background-color: red;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    left: 18px;
+
+
+}
+.line2:hover::after {
+    opacity: 1;
+}
+
+
+.line3 {
+    transition: all 0.5s;
+    position: relative;
+}
+
+.line3::after {
+    content:'' ;
+    opacity: 0;
+    transition: all 0.5s;
+    height: 2px;
+    width: 75px;
+    background-color: red;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    left: 18px;
+
+
+}
+.line3:hover::after {
+    opacity: 1;
+}
+
+
+.line4 {
+    transition: all 0.5s;
+    position: relative;
+}
+
+.line4::after {
+    content:'' ;
+    opacity: 0;
+    transition: all 0.5s;
+    height: 2px;
+    width: 95px;
+    background-color: red;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    left: 18px;
+
+
+}
+.line4:hover::after {
+    opacity: 1;
+}
+
+.letter {
+position: absolute;
+top: 350px;
+left: 150px;
+
+}
+
+.letter h1 {
+ color: rgb(105, 105, 105);
+    font-size: 64px;
+}
+
+.red {
+    color: rgb(146, 33, 190);
+}
+
+.letter p {
+    color: rgb(170, 169, 169);
+    font-size: 30px;
+}
+.firsletter {
+    width: 900px;
+    height: 300px;
+    position: absolute;
+    display: flex;
+    top: 0;
+}
+.img1 {
+    position: absolute;
+    top: 60px;
+    left: 900px;
+    width: 700px;
+    z-index: 1;
+}
+.img2{
+    position: absolute;
+    top: 140px;
+    left: 1200px;
+    width: 700px;
+    z-index: 2;
+}
+.img3{
+    position: absolute;
+    top: 600px;
+    left: 1130px;
+    width: 700px;
+    z-index: 3;
+}
+.img4{
+    position: absolute;
+    top: 780px;
+    left: -290px;
+    width: 70px;
+    z-index: 4;
+}
+.img5 {
+    position: absolute;
+    top: 1150px;
+    left: 300px;
+    width: 70px;
+    z-index: 5;
+}
+.img6 {
+    position: absolute;
+    top: 1060px;
+    left: 450px;
+    width: 70px;
+    z-index: 5;
+}
+.letter2 {
+    width: 400px;
+    position: absolute;
+    left: 280px;
+    top: 1330px;
+    color: rgb(105, 105, 105);
+}
+.letter2 p {
+    color: rgb(105, 105, 105);
+    font-size: 40px;
+}
+.pa {
+    width: 400px;
+    position: absolute;
+    left: 260px;
+    top: 1385px;
+    color: rgb(105, 105, 105);
+    font-size: 20px;
+}
+.ps {
+    width: 400px;
+    position: absolute;
+    left: 240px;
+    top: 1416px;
+    color: rgb(105, 105, 105);
+    font-size: 20px;
+}
+
+.img7 {
+    position: absolute;
+    top: 1300px;
+    left: 860px;
+    width: 70px;
+    z-index: 6;
+}
+.letter4 {
+    width: 500px;
+    position: absolute;
+    left: 880px;
+    top: 1520px;
+    color: rgb(105, 105, 105);
+}
+.pa5 {
+    position: absolute;
+    top: 1570px;
+        left: 810px;
+        font-size: 20px;
+    color: rgb(105, 105, 105);
+}
+.ps5 {
+    position: absolute;
+    top: 1600px;
+        left: 860px;
+        font-size: 20px;
+    color: rgb(105, 105, 105);
+}
+.img8 {
+    position: absolute;
+    top: 1660px;
+    left: 1300px;
+    width: 70px;
+    z-index: 6;
+}
+.letterr6 {
+    width: 500px;
+    position: absolute;
+    left: 1400px;
+    top: 1840px;
+    color: rgb(105, 105, 105);
+}
+.pa6 {
+    position: absolute;
+    top: 1900px;
+        left: 1280px;
+        font-size: 20px;
+    color: rgb(105, 105, 105);
+}
+.ps6 {
+    position: absolute;
+    top: 1930px;
+        left: 1260px;
+        font-size: 20px;
+    color: rgb(105, 105, 105);
+}
+.img9 {
+    position: absolute;
+    top: 1650px;
+    left: 250px;
+}
+.ps7 {
+    position: absolute;
+    top: 1780px;
+        left: 363px;
+        font-size: 25px;
+    color: rgb(255, 255, 255);
+}
+.ps8 {
+    position: absolute;
+    top: 1800px;
+        left: 360px;
+        font-size: 60px;
+    color: rgb(255, 255, 255);
+}
+.img10 {
+    position: absolute;
+    top: 2100px;
+    left: 700px;
+}
+
+.ps9 {
+    font-size: 45px;
+    position: absolute;
+    top: 2400px;
+    left: 1250px;
+        color: rgb(105, 105, 105);
+    }
+
+.ps10 {
+    font-size: 45px;
+    position: absolute;
+    top: 2400px;
+    left: 660px;
+        color: rgb(105, 105, 105);
+}
+
+.img11{
+    position: absolute;
+    top: 2250px;
+    left: 1350px;
+}
+.img12{
+    position: absolute;
+    top: 2230px;
+    left: 320px;
+}
+.ps11 {
+
+    font-size: 35px;
+    position: absolute;
+    top: 2530px;
+    left: 790px;
+        color: rgb(105, 105, 105);
+}
+.ps12 {
+    font-size: 25px;
+    position: absolute;
+    top: 2590px;
+    left: 820px;
+        color: rgb(105, 105, 105);
+}
+.ps13 {
+    font-size: 25px;
+    position: absolute;
+    top: 2625px;
+    left: 824px;
+        color: rgb(105, 105, 105);
+}
+.ps14 {
+    font-size: 25px;
+    position: absolute;
+    top: 2660px;
+    left: 880px;
+        color: rgb(105, 105, 105);
+}
+
+
+
+
+.footer-img {
+    width: 100px;
+    position: absolute;
+    top: 2660px;
+    left: -70px;
+}
+.footer-img1 {
+    width: 100px;
+    position: absolute;
+    top: 2743px;
+    left: 850px;
+}
+.apple {
+    width: 100px;
+    position: absolute;
+    top: 3100px;
+    left: 200px;
+    padding: 35px;
+    background-color: white;
+    border-radius: 12px;
+    
+}
+.google {
+    width: 100px;
+    position: absolute;
+    top: 3100px;
+    left: 400px;
+    padding: 35px;
+    background-color: white;
+    border-radius: 12px;
+    
+}
+.appleimg {
+    position: absolute;
+    top: 3113px;
+    left: 220px;
+}
+.payment-with1{
+    position: absolute;
+    font-size: 11px;
+    top: 3113px;
+    left: 270px;
+    color: rgb(105, 105, 105);
+}
+.payment-with2{
+    position: absolute;
+    font-size: 11px;
+    top: 3113px;
+    left: 470px;
+    color: rgb(105, 105, 105);
+}
+.googleimg {
+    position: absolute;
+    top: 3118px;
+    left: 420px;
+}
+
+.App-Store{
+    position: absolute;
+    font-size: 18px;
+    top: 3125px;
+    left: 270px;
+    color: rgb(105, 105, 105);
+}
+.play-Store{
+    position: absolute;
+    font-size: 18px;
+    top: 3125px;
+    left: 470px;
+    color: rgb(105, 105, 105);
+}
+.instgram{
+    position: absolute;
+    top: 3210px;
+    left: 200px;
+}
+.whatsap {
+    position: absolute;
+    top: 3210px;
+    left: 256px;
+}
+.facbook {
+    position: absolute;
+    top: 3210px;
+    left: 320px;
+}
+ .home {
+    text-decoration: none !important;
+    position: absolute;
+    font-size: 25px;
+    top: 3270px;
+    left: 200px;
+    color: rgb(255, 255, 255);
+
+ }
+
+ .Services {
+    text-decoration: none !important;
+    position: absolute;
+    font-size: 25px;
+    top: 3270px;
+    left: 320px;
+    color: rgb(255, 255, 255);
+ }
+ 
+ .About-Us {
+    position: absolute;
+    font-size: 25px;
+    top: 3270px;
+    left: 470px;
+    color: rgb(255, 255, 255);
+    text-decoration: none !important;
+
+ }
+ 
+ .Help-Center {
+    position: absolute;
+    font-size: 25px;
+    top: 3270px;
+    left: 630px;
+    color: rgb(255, 255, 255);
+    text-decoration: none !important;
+
+ }
+ 
+ .home1 {
+    text-decoration: none ;
+color: white;
+ }
+ .Services {
+    text-decoration: none ;
+color: white;
+ }
+
+ .About-Us1 {
+    text-decoration: none ;
+color: white;
+ }
+ .Help-Center1 {
+    text-decoration: none ;
+color: white;
+ }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
